@@ -1,4 +1,4 @@
-local validKeys = { "SPJ-REACH-0xSRLJYI-LUUUMF-3KBHVX" } -- Linktverse key, dont change!
+local validKeys = { "!@$@!@$@#!%#%!#%#@%!%#$!#$!#@!#@!s@!@#@!#!s!@#!$!@$!@$!$@!@$$#¨#%&$%&$&$%yh%$yg$¨&$%&$%&$&" } -- Linktverse key, dont change!
 local PaidKeys = {
     'SPJ-REACHPAIDKEY-31G30N-O82E3L-HWJ6RV-296VFQ',
 'SPJ-REACHPAIDKEY-7D37Q1-P8RO91-3IEP03-JFVKTJ',
