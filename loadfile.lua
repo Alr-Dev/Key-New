@@ -229,7 +229,8 @@ local function createKeyGui()
 				})
 				screenGui:Destroy()
 				createLoadingScreen()
-				loadstring(game:HttpGet("https://raw.githubusercontent.com/Alr-Dev/key/refs/heads/main/spjreach.lua", true))()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/Alr-Dev/Key-New/refs/heads/main/spjreach.luau", true))()
+					
 			else
 				game.StarterGui:SetCore("SendNotification", {
 					Title = "Invalid API Key",
