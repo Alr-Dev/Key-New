@@ -1,6 +1,6 @@
 local validKeys = { "!@$@!@$@#!%#%!#%#@%!%#$!#$!#@!#@!s@!@#@!#!s!@#!$!@$!@$!$@!@$$#¨#%&$%&$&$%yh%$yg$¨&$%&$%&$&" } -- Linktverse key, dont change!
 local PaidKeys = {
-    'SPJ-REACHPAIDKEY-31G30N-O82E3L-HWJ6RV-296VFQ',
+'SPJ-REACHPAIDKEY-31G30N-O82E3L-HWJ6RV-296VFQ',
 'SPJ-REACHPAIDKEY-7D37Q1-P8RO91-3IEP03-JFVKTJ',
 'SPJ-REACHPAIDKEY-9SL3ZK-BY4JY7-QO4BFQ-Q882W1',
 'SPJ-REACHPAIDKEY-OZR44C-5A5GF5-LUQFRY-RW93AB',
