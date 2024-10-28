@@ -1,3 +1,5 @@
+local allowed = {'fars39o', 'DEDEDEDEDFG0'}
+if game.Players.LocalPlayer.Name == allowed then
 local validKeys = { "!@$@!@$@#!%#%!#%#@%!%#$!#$!#@!#@!s@!@#@!#!s!@#!$!@$!@$!$@!@$$#¨#%&$%&$&$%yh%$yg$¨&$%&$%&$&" } -- Linktverse key, dont change!
 local PaidKeys = {
 'SPJ-REACHPAIDKEY-31G30N-O82E3L-HWJ6RV-296VFQ',
@@ -251,3 +253,6 @@ local function createKeyGui()
 	end)
 end
 createKeyGui()
+else
+print('Ur not allowed')
+end
