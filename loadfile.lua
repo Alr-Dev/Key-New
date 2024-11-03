@@ -1,4 +1,4 @@
-local allowed = {'fars39o', 'DEDEDEDEDFG0', 'Madaratrror'}
+local allowed = {'fars39o', 'DEDEDEDEDFG0', 'Madaratrror', 'daslol23s0912'}
 if game.Players.LocalPlayer.Name == allowed then
 local validKeys = { "!@$@!@$@#!%#%!#%#@%!%#$!#$!#@!#@!s@!@#@!#!s!@#!$!@$!@$!$@!@$$#¨#%&$%&$&$%yh%$yg$¨&$%&$%&$&" } -- Linktverse key, dont change!
 local PaidKeys = {
