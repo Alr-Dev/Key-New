@@ -1,5 +1,5 @@
 
-if game.Players.LocalPlayer.Name == 'daslol23s0912' or 'fars39o' or'DEDEDEDEDFG0' or 'Madaratrror' or'daslol23s0912' then
+if game.Players.LocalPlayer.Name == 'daslol23s0912' then
 local validKeys = { "!@$@!@$@#!%#%!#%#@%!%#$!#$!#@!#@!s@!@#@!#!s!@#!$!@$!@$!$@!@$$#¨#%&$%&$&$%yh%$yg$¨&$%&$%&$&" } -- Linktverse key, dont change!
 local PaidKeys = {
 'SPJ-REACHPAIDKEY-31G30N-O82E3L-HWJ6RV-296VFQ',
