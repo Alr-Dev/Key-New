@@ -1,5 +1,5 @@
 
-if _G.BypassTwo or _G.BypassedOne then
+if _G.BypassTwo then
     print('Bypass was alredy executed.')
 end
 if _G.ScriptExec then
@@ -10,7 +10,6 @@ local types = {
     V = game:GetService("StarterPlayer").StarterPlayerScripts.Scripts.AntiCheat
 }
 _G.BypassedOne = true
-_G.BypassTwo = true
 _G.ScriptExec = true
 local function bypass()
 if types.V then
@@ -23,4 +22,17 @@ end
 bypass()
 local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
 local window = DrRayLibrary:Load("SPJ Reach", "Default")
-local Tab = DrRayLibrary.newTab("Configs", "ImageIdHere")
+local Tab = DrRayLibrary.newTab("Main", "ImageIdHere")
+local Tab2 = DrRayLibrary.newTab("Customize", "ImageIdHere")
+Tab.newSlider("Right leg", "", 5, false, function(Value) 
+    game.Players.LocalPlayer.Character['Right Leg'].Size = Vector3.new(Value, Value, Value)
+end)
+Tab.newSlider("Left leg", "", 5, false, function(Value) 
+    game.Players.LocalPlayer.Character['Left Leg'].Size = Vector3.new(Value, Value, Value)
+end)
+Tab2.newSlider("Right leg transparency", "", 5, false, function(Value) 
+    game.Players.LocalPlayer.Character['Right Leg'].Transparency = Value
+end)
+Tab2.newSlider("Left leg transparency", "", 5, false, function(Value) 
+    game.Players.LocalPlayer.Character['Left Leg'].Transparency = Value
+end)
