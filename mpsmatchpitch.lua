@@ -21,3 +21,6 @@ if types.X then
 end
 end
 bypass()
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("SPJ Reach", "Default")
+local Tab = DrRayLibrary.newTab("Configs", "ImageIdHere")
