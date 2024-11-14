@@ -1,5 +1,5 @@
 
-if game.Players.LocalPlayer.Name == 'nasciem1926ok' or 'Madaratrror' or 'Whyyousuchaneysga' then
+if game.Players.LocalPlayer.Name == 'Madaratrror' then
 if game.PlaceId == 95304903292658 then
  return loadstring(game:HttpGet(('https://raw.githubusercontent.com/Alr-Dev/Key-New/refs/heads/main/loadfile3.lua')))()
 end
